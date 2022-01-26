@@ -1,12 +1,12 @@
-def dvoznamenkast(x):    
+def dvoznamenkast(x):
     return x >= 10 and x <=99
 
 def predzadnja(x):
     return int(x%100/10)
 
-for i in range(3):
+for i in range(10):
     broj = int(input("Unesite broj:"))
-    if dvoznamenkast(broj):
+    if dvoznamenkast(broj): # x >= 10 and x <=99
         break
 
 if not dvoznamenkast(broj):
