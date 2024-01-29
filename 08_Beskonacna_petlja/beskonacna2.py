@@ -13,7 +13,6 @@ i = 2 # brojac, krecemo provjeravati je li broj djeljiv s 2
 while True:
     if i == broj: # kada dodjemo do kraja, prekidamo petlju
         break
-    
     if broj % i == 0:
         # ako je djeljiv s bilo kojim brojem
         # nije prost
