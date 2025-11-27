@@ -1,0 +1,8 @@
+print("Hello world!")
+print(1, 2, 3)
+print("Test", 2, True)
+print(1, 2, 3, sep="*")
+print(1, 2, 3, sep="#", end="&\n")
+print("Test2")
+print("Test3")
+print('Rezultat je:', 5)
